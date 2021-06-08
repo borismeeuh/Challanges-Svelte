@@ -88,10 +88,6 @@
 </body>
 
 <style>
-  /* @font-face {
-    font-family: "Roboto", sans-serif;
-    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro&display=swap);
-  } */
   :global(body) {
     background-image: url("/images/wallpaper.jpg");
     margin: 0;
@@ -128,6 +124,10 @@
     border-radius: 5px;
     border: none;
     background-color: aliceblue;
+  }
+
+  #submitPlace:hover {
+    background-color: aquamarine;
   }
 
   #weatherResults {
